@@ -21,3 +21,6 @@ see the following [issue](https://github.com/Azure/azure-functions-core-tools/is
  - place a breakpoint in `./trigger-app/trigger/index.js` inside the `catch` block
  - in the `trigger-app` terminal, `CTRL+Click` the HTTP Trigger url to launch the browser
    - the `catch` block breakpoint will be hit, inspect the `err`
+  
+# note
+I have included the `local.settings.json` files for ease of setup because they contain no secrets, that is not advised in a real project.
