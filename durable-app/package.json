@@ -1,0 +1,11 @@
+{
+  "name": "durable-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "durable-functions": "^2.1.3"
+  }
+}

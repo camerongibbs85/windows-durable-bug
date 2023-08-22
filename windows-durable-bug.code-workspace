@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "azurite",
+			"path": "azurite"
+		},
+		{
+			"name": "durable-app",
+			"path": "durable-app"
+		},
+		{
+			"name": "trigger-app",
+			"path": "trigger-app"
+		}
+	],
+	"launch": {
+		"compounds": [
+			{
+				"name": "Attach to APIs",
+				"configurations": [
+					"Attach to durable-app",
+					"Attach to trigger-app"
+				]
+			}
+		]
+	},
+	"settings": {},
+}
